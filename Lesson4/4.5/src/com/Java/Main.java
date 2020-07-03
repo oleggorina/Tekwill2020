@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-	    int distance = sc.nextInt();
+	    double distance = sc.nextDouble();
 	    int hours = sc.nextInt();
-	    int speed = distance/hours;
+	    double speed = distance/hours;
         System.out.println(speed + " km");
     }
 }
