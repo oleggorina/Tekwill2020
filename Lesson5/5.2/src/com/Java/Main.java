@@ -13,22 +13,22 @@ public class Main {
             System.out.println("No army");
         }
 
-	    if (num >= 1 && num <= 19)
+	    else if (num >= 1 && num <= 19)
         {
             System.out.println("Pack");
         }
 
-	    if (num >= 20 && num <= 249)
+	    else if (num >= 20 && num <= 249)
         {
             System.out.println("Throng");
         }
 
-	    if (num >= 250 && num <= 999)
+	    else if (num >= 250 && num <= 999)
         {
             System.out.println("Zounds");
         }
 
-	    if (num >= 1000)
+	    else if (num >= 1000)
         {
             System.out.println("Legion");
         }
