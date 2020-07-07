@@ -6,26 +6,27 @@ public class Main {
 
     public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-	    int a = sc.nextInt();
-	    int b = sc.nextInt();
+	    int num = sc.nextInt();
 
-	    for (int i = a; i <= b; i++)
+	    switch (num)
         {
-            if (i % 3 == 0 && i % 5 == 0)
-            {
-                System.out.println("FizzBuzz");
-            }
-            else if (i % 3 == 0)
-            {
-                System.out.println("Fizz");
-            }
-            else if (i % 5 == 0)
-            {
-                System.out.println("Buzz");
-            }
-            else {
-                System.out.println(i);
-            }
+            case 1:
+                System.out.println("up");
+                break;
+            case 2:
+                System.out.println("down");
+                break;
+            case 3:
+                System.out.println("left");
+                break;
+            case 4:
+                System.out.println("right");
+                break;
+            case 0:
+                System.out.println("do not move");
+                break;
+            default:
+                System.out.println("error!");
         }
     }
 }
