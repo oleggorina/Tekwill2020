@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int size = sc.nextByte();
+        int size = sc.nextInt();
         int[] array = new int[size];
 
         for (int i = 0; i < array.length; i++)
