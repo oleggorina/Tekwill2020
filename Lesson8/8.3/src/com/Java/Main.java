@@ -12,7 +12,7 @@ public class Main {
 
     public static long factorial (long n)
     {
-       int res = 1;
+       long res = 1;
        for (int i = 1; i <= n; i++)
        {
            res *= i;
