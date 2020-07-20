@@ -12,9 +12,9 @@ public class Main {
 
     public static long sum (int s)
     {
-        if (s == 1)
+        if (s <= 1)
         {
-            return 1;
+            return s;
         }
         return s + sum(s -1);
     }
