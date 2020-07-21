@@ -15,13 +15,12 @@ public class Main {
         System.out.println(java.util.Arrays.binarySearch(arr, n));
     }
 
-    public static int[] array (int[] arr)
+    public static void array (int[] arr)
     {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         for (int i = 0; i < arr.length; i++)
         {
             arr[i] = sc.nextInt();
         }
-        return arr;
     }
 }
