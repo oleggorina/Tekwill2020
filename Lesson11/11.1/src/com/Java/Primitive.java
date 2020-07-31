@@ -1,10 +1,8 @@
 package com.Java;
 
-public class Primitive
-{
-    public static boolean toPrimitive (Boolean b)
+public class Primitive {
+    public static boolean isPrimitive (Boolean b)
     {
-        boolean a = b;
-        return a;
+        return b!= null && b;
     }
 }
