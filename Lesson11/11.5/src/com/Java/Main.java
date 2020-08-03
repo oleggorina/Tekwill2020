@@ -6,7 +6,7 @@ public class Main {
         int count = 0;
         for (Secret secret: Secret.values())
         {
-            if (secret.toString().contains("STAR"))
+            if (secret.toString().startsWith("STAR"))
             {
                 count ++;
             }
