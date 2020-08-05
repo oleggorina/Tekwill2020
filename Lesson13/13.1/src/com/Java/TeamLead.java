@@ -9,7 +9,7 @@ public class TeamLead {
         employ();
     }
 
-    protected void employ()
+    private void employ()
     {
         System.out.println(numTeamLead + " teamlead");
     }

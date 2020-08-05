@@ -8,13 +8,13 @@ public class Main {
         Publication publication = new Publication("The new era");
         System.out.println(publication.getInfo());
 
-        Publication newspaper = new Newspaper("Footbal results", "Sport news");
+        Newspaper newspaper = new Newspaper("Footbal results", "Sport news");
         System.out.println(newspaper.getInfo());
 
-        Publication article = new Article("Why the Sun is hot", "Dr James Smith");
+        Article article = new Article("Why the Sun is hot", "Dr James Smith");
         System.out.println(article.getInfo());
 
-        Publication announcement = new Announcement("Will sell a house", 30);
+        Announcement announcement = new Announcement("Will sell a house", 30);
         System.out.println(announcement.getInfo());
     }
 }

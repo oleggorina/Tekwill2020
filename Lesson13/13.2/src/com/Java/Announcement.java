@@ -18,6 +18,6 @@ public class Announcement extends Publication{
     @Override
     public String getDetails()
     {
-        return "(days to expire - " + daysToExpire + "): " + super.getDetails();
+        return " (days to expire - " + daysToExpire + ")";
     }
 }

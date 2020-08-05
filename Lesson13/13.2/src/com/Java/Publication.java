@@ -10,7 +10,7 @@ public class Publication {
 
     public final String getInfo()
     {
-        return getType() + ": " + getDetails();
+        return getType() + getDetails() + ": " + getTitle();
     }
 
     public String getType()
@@ -19,6 +19,11 @@ public class Publication {
     }
 
     public String getDetails()
+    {
+        return "";
+    }
+
+    public String getTitle()
     {
         return title;
     }

@@ -18,7 +18,7 @@ public class Article extends Publication{
     @Override
     public String getDetails()
     {
-        return "(author - " + author + "): " + super.getDetails();
+        return " (author - " + author + ")";
     }
 
 }

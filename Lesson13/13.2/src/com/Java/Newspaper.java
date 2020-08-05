@@ -18,6 +18,6 @@ public class Newspaper extends Publication{
     @Override
     public String getDetails()
     {
-        return "(source - " + source + "): " + super.getDetails();
+        return " (source - " + source + ")";
     }
 }
